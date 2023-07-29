@@ -277,4 +277,173 @@ button {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.seafood__all {
+  display: flex;
+  flex-direction: column;
+  margin-left: 37.48px;
+  margin-top: 26.15px;
+}
+.seafood__title {
+  color: #151515;
+  font-family: "Roslindale";
+  font-size: 109px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 153px;
+  text-transform: uppercase;
+  padding-left: 10px;
+  padding-top: 40px;
+  padding-bottom: 22px;
+}
+.seafood__row {
+  display: flex;
+  flex-direction: row;
+}
+.seafood__img {
+  width: 467px;
+  height: 467px;
+  padding: 8.48px 5px 5px 3px;
+}
+.seafood__text {
+  color: #151515;
+  font-family: "Apercu Pro";
+  font-size: 15.005px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 429px;
+  flex-shrink: 0;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 20px;
+}
+.seafood__menu {
+  padding-top: 335px;
+  width: 427px;
+}
+.seafood__menutitle {
+  color: #151515;
+  font-family: "Roslindale";
+  font-size: 20.25px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.seafood__menutext {
+  color: #151515;
+  font-family: "Apercu Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 427px;
+}
+
+.third__all {
+  display: flex;
+  flex-direction: column;
+  margin-left: 37.48px;
+  margin-top: 26.15px;
+}
+.third__row {
+  display: flex;
+  flex-direction: row;
+}
+.third__number {
+  color: #151515;
+  font-family: "Apercu Pro";
+  font-size: 11.246px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.third__title {
+  display: flex;
+  flex-direction: column;
+  color: #151515;
+  font-family: "Roslindale";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+  text-align: right;
+  padding-left: 27px;
+  padding-bottom: 26px;
+}
+.third__title span {
+  width: 1306.7px;
+}
+.third__one {
+  width: 444.73px;
+  height: 444.73px;
+  flex-shrink: 0;
+  padding-right: 15px;
+}
+.third__two {
+  width: 621px;
+  height: 616.5px;
+  flex-shrink: 0;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+.third__three {
+  width: 268.5px;
+  height: 268.5px;
+  flex-shrink: 0;
+  padding-top: 345px;
+}
+.third__four {
+  width: 667.48px;
+  height: 667.48px;
+  flex-shrink: 0;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+.third__five {
+  padding-right: 15px;
+}
+.third__six {
+  padding-top: 334px;
+}
+.third__seven {
+  padding-right: 15px;
+}
+.third__eight {
+  padding-top: 274px;
+  padding-right: 15px;
+}
+.third__nine {
+  padding-right: 15px;
+}
+
+.four__title {
+  margin-left: 37.48px;
+  margin-top: 26.15px;
+  display: flex;
+  flex-direction: column;
+  color: #151515;
+  font-family: "Roslindale";
+  font-size: 50.51px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+  padding-top: 70px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.four__row {
+  white-space: nowrap;
+}
+.four img {
+  margin-left: 13px;
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */

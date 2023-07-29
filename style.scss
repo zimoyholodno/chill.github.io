@@ -309,3 +309,200 @@ button{
         line-height: normal;
     }
 }
+
+.seafood{
+    &__all{
+        display: flex;
+        flex-direction: column;
+        margin-left: 37.48px;
+        margin-top: 26.15px;
+    }
+
+    &__title{
+        color: #151515;
+        font-family: 'Roslindale';
+        font-size: 109px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 153px;
+        text-transform: uppercase;
+        padding-left: 10px;
+        padding-top: 40px;
+        padding-bottom: 22px;
+    }
+
+    &__row{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    &__img{
+        width: 467px;
+        height: 467px;
+        padding: 8.48px 5px 5px 3px;
+    }
+    
+    &__text{
+        color: #151515;
+        font-family: 'Apercu Pro';
+        font-size: 15.005px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 429px;
+        flex-shrink: 0;
+        padding-top: 5px;
+        padding-left: 5px;
+        padding-right: 20px;
+    }
+
+    &__menu{
+        padding-top: 335px;
+        width: 427px;
+    }
+
+    &__menutitle{
+        color: #151515;
+        font-family: 'Roslindale';
+        font-size: 20.25px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    &__menutext{
+        color: #151515;
+        font-family: 'Apercu Pro';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 427px;
+    }
+}
+
+.third{
+    &__all{
+        display: flex;
+        flex-direction: column;
+        margin-left: 37.48px;
+        margin-top: 26.15px;
+    }
+
+    &__row{
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__number{
+        color: #151515;
+        font-family: 'Apercu Pro';
+        font-size: 11.246px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &__title{
+        display: flex;
+        flex-direction: column;
+        color: #151515;
+        font-family: 'Roslindale';
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        text-transform: uppercase;
+        text-align: right;
+        padding-left: 27px;
+        padding-bottom: 26px;
+
+        span{
+            width: 1306.7px;
+        }
+    }
+
+    &__one{
+        width: 444.73px;
+        height: 444.73px;
+        flex-shrink: 0;
+        padding-right: 15px;
+    }
+
+    &__two{
+        width: 621px;
+        height: 616.5px;
+        flex-shrink: 0;
+        padding-right: 15px;
+        padding-bottom: 15px;
+    }
+
+    &__three{
+        width: 268.5px;
+        height: 268.5px;
+        flex-shrink: 0;
+        padding-top: 345px;
+    }
+
+    &__four{
+        width: 667.48px;
+        height: 667.48px;
+        flex-shrink: 0;
+        padding-right: 15px;
+        padding-bottom: 15px;
+    }
+
+    &__five{
+        padding-right: 15px;
+    }
+
+    &__six{
+        padding-top: 334px;
+    }
+
+    &__seven{
+        padding-right: 15px;
+    }
+
+    &__eight{
+        padding-top: 274px;
+        padding-right: 15px;
+    }
+
+    &__nine{
+        padding-right: 15px;
+    }
+}
+
+.four{
+    &__title{
+        margin-left: 37.48px;
+        margin-top: 26.15px;
+        display: flex;
+        flex-direction: column;
+        color: #151515;
+        font-family: 'Roslindale';
+        font-size: 50.51px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        text-transform: uppercase;
+        padding-top: 70px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+ 
+    &__row{
+        white-space: nowrap;
+    }
+    
+    img{
+        margin-left: 13px;
+        margin-right: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
