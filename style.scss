@@ -1,9 +1,10 @@
-body {
+html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0;
     background-color: #787878a9;
+    scroll-behavior: smooth;
 }
 
 .container
