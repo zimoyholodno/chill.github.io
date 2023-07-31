@@ -1,4 +1,8 @@
 @charset "UTF-8";
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -125,8 +129,7 @@ body {
   height: 79px;
   margin-left: 21.95px;
 }
-
-button {
+.header button {
   width: 94.5px;
   height: 22.5px;
   background-image: url("./img/вторая.png");
@@ -439,6 +442,14 @@ button {
 }
 .four__row {
   white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.four__row span {
+  margin-left: 13px;
+  margin-right: 5px;
+  margin-top: 3px;
 }
 .four img {
   margin-left: 13px;
@@ -446,4 +457,171 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.visit button {
+  background-color: #D2A070;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 222.75px;
+  height: 33.75px;
+  flex-shrink: 0;
+  flex-direction: column;
+  text-align: center;
+  cursor: pointer;
+  border-color: #D2A070;
+  margin-top: 15px;
+  margin-left: 608px;
+  margin-bottom: 20px;
+}
+.visit span {
+  color: #F6F6F6;
+  font-family: "Apercu Pro";
+  font-size: 15.005px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+footer {
+  background-color: #000000;
+}
+
+.footer__all {
+  display: flex;
+  flex-direction: row;
+}
+.footer__one {
+  display: flex;
+  flex-direction: column;
+  margin-left: 28px;
+  margin-right: 250px;
+}
+.footer__title {
+  display: flex;
+  flex-direction: row;
+}
+.footer__circle {
+  margin-top: 51px;
+  width: 9.73px;
+  height: 9.73px;
+  flex-shrink: 0;
+  border-radius: 3000px;
+  background: rgb(210, 160, 112);
+  opacity: 0.0863901973;
+}
+.footer__brand {
+  color: #FFF;
+  font-family: "Roslindale";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.36px;
+  padding-top: 48.76px;
+  padding-left: 3.5px;
+  width: 87px;
+  height: 15px;
+}
+.footer__date {
+  color: #7C7C7C;
+  font-family: "Apercu Pro";
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 26px;
+}
+.footer__date span {
+  display: flex;
+  flex-direction: column;
+}
+.footer__two {
+  margin-top: 40px;
+  margin-right: 152px;
+  margin-bottom: 38px;
+}
+.footer__link {
+  list-style: none;
+  width: 254px;
+}
+.footer__link a {
+  font-family: "Apercu Pro";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  width: 70px;
+  height: 14px;
+  padding-right: 5px;
+  color: #F6F6F6;
+  text-decoration: none;
+  cursor: pointer;
+}
+.footer__three {
+  margin-top: 40px;
+  margin-right: 150px;
+}
+.footer__links {
+  list-style: none;
+  width: 254px;
+}
+.footer__links a {
+  font-family: "Apercu Pro";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  width: 70px;
+  height: 14px;
+  padding-right: 5px;
+  color: #7C7C7C;
+  text-decoration: none;
+  cursor: pointer;
+}
+.footer__four {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-right: 45px;
+}
+.footer__button {
+  color: #F6F6F6;
+  text-align: center;
+  font-family: "Apercu Pro";
+  font-size: 10.21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+  background-image: url("./img/вторая.png");
+}
+.footer button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 94.5px;
+  height: 22.5px;
+  flex-shrink: 0;
+  border-color: #D2A070;
+  background: #D2A070;
+}
+.footer__gratitude {
+  color: #7C7C7C;
+  text-align: right;
+  font-family: "Apercu Pro";
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: right;
+  margin-top: 33px;
+}
+.footer__gratitude span {
+  display: flex;
+  flex-direction: column;
+}
+.footer__column {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 70px;
 }/*# sourceMappingURL=style.css.map */

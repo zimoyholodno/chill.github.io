@@ -1,10 +1,13 @@
-html, body {
+html {
+  scroll-behavior: smooth;
+}
+
+body {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0;
     background-color: #787878a9;
-    scroll-behavior: smooth;
 }
 
 .container
@@ -17,6 +20,7 @@ html, body {
     background-image: url("./img/первая.png");
     height: 893px;
     width: 100%;
+
     &__top{
         display: flex;
         flex-direction: row;
@@ -106,8 +110,7 @@ html, body {
         width: 1403px;
         height: 240px;
         max-width: 1440px;
-        flex-direction: column;
-        
+        flex-direction: column;        
     }
     &__title{
         display: flex;
@@ -134,18 +137,20 @@ html, body {
         height: 79px;
         margin-left: 21.95px;
     }
+
+    button{
+        width: 94.5px;
+        height: 22.5px;
+        background-image: url('./img/вторая.png');
+        margin-right: 42.5px;
+        margin-top: 27.77px;
+        margin-left: 416px;
+        text-align: center;
+        flex-shrink: 0;
+    }
 }
 
-button{
-    width: 94.5px;
-    height: 22.5px;
-    background-image: url('./img/вторая.png');
-    margin-right: 42.5px;
-    margin-top: 27.77px;
-    margin-left: 416px;
-    text-align: center;
-    flex-shrink: 0;
-}
+
 
 .history{
     &__all{
@@ -497,6 +502,15 @@ button{
  
     &__row{
         white-space: nowrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        span{
+            margin-left: 13px;
+            margin-right: 5px;
+            margin-top: 3px;
+        }
     }
     
     img{
@@ -505,5 +519,190 @@ button{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+}
+
+.visit{
+    button{
+        background-color: #D2A070;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 222.75px;
+        height: 33.75px;
+        flex-shrink: 0;
+        flex-direction: column;
+        text-align: center;
+        cursor: pointer;
+        border-color: #D2A070;
+        margin-top: 15px;
+        margin-left: 608px;
+        margin-bottom: 20px;
+    }
+    span{
+        color: #F6F6F6;
+        font-family: 'Apercu Pro';
+        font-size: 15.005px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+footer{
+    background-color: #000000;
+}
+
+.footer{
+    &__all{
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__one{
+        display: flex;
+        flex-direction: column;
+        margin-left: 28px;
+        margin-right: 250px;
+    }
+    &__title{
+        display: flex;
+        flex-direction: row;
+    }
+    &__circle{
+        margin-top: 51px;
+        width: 9.73px;
+        height: 9.73px;
+        flex-shrink: 0;
+        border-radius: 3000px;
+        background: rgba(210, 160, 112, 1);
+        opacity: 0.08639019727706909;        
+    }
+
+    &__brand{
+        color: #FFF;
+        font-family:'Roslindale';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: 0.36px;
+        padding-top: 48.76px;
+        padding-left: 3.5px;
+        width: 87px;
+        height: 15px;
+    }
+
+    &__date{
+        color: #7C7C7C;
+        font-family: 'Apercu Pro';
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 26px;
+
+        span{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    &__two{
+        margin-top: 40px;
+        margin-right: 152px;
+        margin-bottom: 38px;
+    }
+    
+    &__link{
+        list-style: none;       
+        width: 254px;
+        a{
+            font-family: 'Apercu Pro';
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            width: 70px;
+            height: 14px;
+            padding-right: 5px;
+            color: #F6F6F6;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    }
+
+    &__three{
+        margin-top: 40px;
+        margin-right: 150px;
+    }
+
+    &__links{
+        list-style: none;       
+        width: 254px;
+        a{
+            font-family: 'Apercu Pro';
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            width: 70px;
+            height: 14px;
+            padding-right: 5px;
+            color: #7C7C7C;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    }
+    
+    &__four{
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        margin-right: 45px;
+    }
+
+    &__button{
+        color: #F6F6F6;
+        text-align: center;
+        font-family: 'Apercu Pro';
+        font-size: 10.21px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        cursor: pointer;            
+        background-image: url('./img/вторая.png');    
+    }
+
+    button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 94.5px;
+        height: 22.5px;
+        flex-shrink: 0;
+        border-color: #D2A070;
+        background: #D2A070;
+    }
+
+    &__gratitude{
+        color: #7C7C7C;
+        text-align: right;
+        font-family: 'Apercu Pro';
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: right;
+        margin-top: 33px;
+
+        span{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    &__column{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 70px;
     }
 }
